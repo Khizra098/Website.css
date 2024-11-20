@@ -7,10 +7,10 @@ const Header = () => {
     <header className='header'>
         <h1 className='logo'>Stevemax Watche's</h1>
         <nav>
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/watches">Watches</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href='/'>Home</Link>
+            <Link href='/about'>About</Link>
+            <Link href='/watches'>Watches</Link>
+            <Link href='/contact'>Contact</Link>
             <FaShoppingCart style={{color:'white', fontSize: '20px'}} />
         </nav>
     </header>
